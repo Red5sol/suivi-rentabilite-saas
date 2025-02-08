@@ -1,4 +1,7 @@
 {
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ],
   "build": {
     "env": {
       "NODE_VERSION": "18"
